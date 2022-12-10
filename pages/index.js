@@ -1,8 +1,8 @@
-import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
 import Animation from "../components/Animation";
 import { SiGithub } from "react-icons/si";
+import Link from "next/link";
 
 function Home() {
   return (
@@ -25,7 +25,7 @@ function Home() {
               현재 FallGuys 팀원들과 프로젝트를 진행중입니다.
             </p>
 
-            <a
+            <Link
               class="mt-8 group relative inline-flex items-center overflow-hidden border-current
               rounded border border-gray-600 bg-gray-600 px-8 py-3 text-white hover:bg-transparent hover:text-gray-600 focus:outline-none focus:ring active:text-gray-500"
               href="/portfolio"
@@ -50,22 +50,21 @@ function Home() {
               <span class="text-sm font-medium transition-all group-hover:mr-4">
                 Project
               </span>
-            </a>
+            </Link>
 
-            <a
+            <Link
               class="mt-8 ml-3 group relative inline-flex items-center overflow-hidden border-current
               rounded border border-gray-600 bg-gray-600 px-8 py-3 text-white hover:bg-transparent hover:text-gray-600 focus:outline-none focus:ring active:text-gray-500"
-              href="/portfolio"
+              href="/https://github.com/JBUkim"
             >
               <span class="absolute right-0 translate-x-full transition-transform group-hover:-translate-x-4">
-              <SiGithub></SiGithub>
+                <SiGithub></SiGithub>
               </span>
 
               <span class="text-sm font-medium transition-all group-hover:mr-4">
                 GitHub
               </span>
-            </a>
-
+            </Link>
           </div>
 
           <div className="image-wrapper">

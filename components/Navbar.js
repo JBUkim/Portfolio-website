@@ -14,9 +14,9 @@ function Navbar({ router }) {
   return (
     <nav className="navbar">
       <div className="container">
-        <a href="/" className="logo">
+        <Link href="/" className="logo">
           Portfolio.
-        </a>
+        </Link>
 
         <ul className="nav-links">
           {navs.map((nav) => (
