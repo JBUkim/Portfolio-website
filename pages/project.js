@@ -58,7 +58,7 @@ function Portfolio() {
                   </li>
 
                   <li>
-                    <a href="#" class="group relative block bg-black">
+                    <Link href="#" class="group relative block bg-black">
                       <img
                         alt="Developer"
                         src="/images/butterfly-gbfa6ab678_1280.jpg"
@@ -84,11 +84,11 @@ function Portfolio() {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
+                    <Link
                       href="https://github.com/JBUkim/TODO"
                       class="group relative block bg-black"
                     >
@@ -118,11 +118,11 @@ function Portfolio() {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
+                    <Link
                       href="https://bat2.vercel.app/"
                       class="group relative block bg-black"
                     >
@@ -152,11 +152,11 @@ function Portfolio() {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
+                    <Link
                       href="https://next-shop-7lik.vercel.app/"
                       class="group relative block bg-black"
                     >
@@ -186,11 +186,11 @@ function Portfolio() {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
+                    <Link
                       href="https://lf-final.vercel.app/"
                       class="group relative block bg-black"
                     >
@@ -221,7 +221,7 @@ function Portfolio() {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
