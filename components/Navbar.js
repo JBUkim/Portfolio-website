@@ -20,15 +20,15 @@ function Navbar({ router }) {
 
         <ul className="nav-links">
           {navs.map((nav) => (
-            <li>
-                <a
-                  href={nav.href}
-                  className={`nav-item ${
-                    router.pathname == nav.href ? "active" : ""
-                  }`}
-                >
-                  {nav.text}
-                </a>
+            <li key={key}>
+              <a
+                href={nav.href}
+                className={`nav-item ${
+                  router.pathname == nav.href ? "active" : ""
+                }`}
+              >
+                {nav.text}
+              </a>
             </li>
           ))}
         </ul>
