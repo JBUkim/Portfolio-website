@@ -34,21 +34,21 @@ function Navbar() {
           ))} */}
 
           <li className="relative inline-block mx-5 active:font-bold hover:font-bold">
-            <a href="/" className="">
+            <Link href="/" className="">
               Home
-            </a>
+            </Link>
           </li>
           <li className="relative inline-block mx-5 active:font-bold hover:font-bold">
-            <a href="/skills">Skills</a>
+            <Link href="/skills">Skills</Link>
           </li>
           <li className="relative inline-block mx-5 active:font-bold hover:font-bold">
-            <a href="/project">Project</a>
+            <Link href="/project">Project</Link>
           </li>
           <li className="relative inline-block mx-5 active:font-bold hover:font-bold">
-            <a href="/contact">Contact</a>
+            <Link href="/contact">Contact</Link>
           </li>
           <li className="relative inline-block mx-5 active:font-bold hover:font-bold">
-            <a href="https://github.com/JBUkim">GitHub</a>
+            <Link href="https://github.com/JBUkim">GitHub</Link>
           </li>
         </ul>
       </div>
