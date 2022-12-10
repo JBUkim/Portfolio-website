@@ -19,8 +19,7 @@ function Portfolio() {
             <p className="description">사진을 클릭하면 사이트로 이동합니다.</p>
 
             <section>
-              <div
-                class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
+              <div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
                 <ul class="grid grid-cols-1 gap-4 mt-8 lg:grid-cols-3">
                   <li>
                     <Link
@@ -93,7 +92,7 @@ function Portfolio() {
                     >
                       <img
                         alt="Developer"
-                        src="/images/web3.png"
+                        src="/images/web3.PNG"
                         class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
                       />
 
@@ -127,7 +126,7 @@ function Portfolio() {
                     >
                       <img
                         alt="Developer"
-                        src="/images/web5.png"
+                        src="/images/web5.PNG"
                         class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
                       />
 
@@ -161,7 +160,7 @@ function Portfolio() {
                     >
                       <img
                         alt="Developer"
-                        src="/images/web6.png"
+                        src="/images/web6.PNG"
                         class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
                       />
 
