@@ -28,7 +28,7 @@ function Home() {
             <Link
               class="mt-8 group relative inline-flex items-center overflow-hidden border-current
               rounded border border-gray-600 bg-gray-600 px-8 py-3 text-white hover:bg-transparent hover:text-gray-600 focus:outline-none focus:ring active:text-gray-500"
-              href="/portfolio"
+              href="/project"
             >
               <span class="absolute right-0 translate-x-full transition-transform group-hover:-translate-x-4">
                 <svg
