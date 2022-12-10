@@ -194,7 +194,7 @@ function Portfolio() {
                     >
                       <img
                         alt="Developer"
-                        src="/images/web4.png"
+                        src="/images/web4.PNG"
                         class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
                       />
 
