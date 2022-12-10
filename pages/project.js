@@ -1,12 +1,13 @@
 
 import Navbar from "../components/Navbar";
 import Head from "next/head";
+import Link from "next/link";
 
 function Portfolio() {
   return (
     <>
       <Head>
-        <title>Portfolio</title>
+        <title>Project</title>
       </Head>
 
       <Navbar />
@@ -21,7 +22,7 @@ function Portfolio() {
               <div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
                 <ul class="grid grid-cols-1 gap-4 mt-8 lg:grid-cols-3">
                   <li>
-                    <a
+                    <Link
                       href="https://github.com/JBUkim/TimeCourse"
                       class="group relative block bg-black"
                     >
@@ -40,18 +41,18 @@ function Portfolio() {
 
                         <div class="mt-64">
                           <div class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                            <p class="text-sm text-white">
+                            <div class="text-sm text-white">
                               중부대학교 수강신청 사이트 리메이크 프로젝트
                               입니다.
-                              <br />
-                              <a className="text-pink-400 font-bold">
+                              <br></br>
+                              <p className="text-pink-400 font-bold">
                                 사용언어: Node.js, MySQL
-                              </a>
-                            </p>
+                              </p>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
@@ -71,13 +72,13 @@ function Portfolio() {
 
                         <div class="mt-64">
                           <div class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                            <p class="text-sm text-white">
+                            <div class="text-sm text-white">
                               여러가지 기능을 합친 다용도 웹사이트 입니다.
                               <br />
-                              <a className="text-pink-400 font-bold">
+                              <p className="text-pink-400 font-bold">
                                 사용언어: Node.js, MySQL
-                              </a>
-                            </p>
+                              </p>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -104,14 +105,14 @@ function Portfolio() {
 
                         <div class="mt-64">
                           <div class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                            <p class="text-sm text-white">
+                            <div class="text-sm text-white">
                               SNS와 Scedular 두가지 기능을 결합한 소셜네트워크
                               사이트입니다.
                               <br />
-                              <a className="text-pink-400 font-bold">
+                              <p className="text-pink-400 font-bold">
                                 사용언어: Python, PostgreSQL
-                              </a>
-                            </p>
+                              </p>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -138,14 +139,14 @@ function Portfolio() {
 
                         <div class="mt-64">
                           <div class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                            <p class="text-sm text-white">
+                            <div class="text-sm text-white">
                               외부 API를 이용한 Next.js 웹사이트 예제 사이트
                               입니다.
                               <br />
-                              <a className="text-pink-400 font-bold">
+                              <p className="text-pink-400 font-bold">
                                 사용언어: Next.js, Tailwindcss
-                              </a>
-                            </p>
+                              </p>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -172,14 +173,14 @@ function Portfolio() {
 
                         <div class="mt-64">
                           <div class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                            <p class="text-sm text-white">
+                            <div class="text-sm text-white">
                               다양한 암호기술과 Next.js를 이용한 웹커머스
                               사이트이니다.
                               <br />
-                              <a className="text-pink-400 font-bold">
+                              <p className="text-pink-400 font-bold">
                                 사용언어: Next.js, MongoDB
-                              </a>
-                            </p>
+                              </p>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -208,13 +209,13 @@ function Portfolio() {
 
                         <div class="mt-64">
                           <div class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                            <p class="text-sm text-white">
+                            <div class="text-sm text-white">
                               FallGuys팀과 함께만든 축제소개 사이트입니다.
                               <br />
-                              <a className="text-pink-400 font-bold">
+                              <p className="text-pink-400 font-bold">
                                 사용언어: Next.js, MongoDB
-                              </a>
-                            </p>
+                              </p>
+                            </div>
                           </div>
                         </div>
                       </div>

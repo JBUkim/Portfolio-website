@@ -5,7 +5,7 @@ function Navbar({ router }) {
   const navs = [
     { text: "Home", href: "/" },
     { text: "Skills", href: "/skills" },
-    { text: "Project", href: "/portfolio" },
+    { text: "Project", href: "/project" },
     { text: "Contact", href: "/contact" },
     { text: "GitHub", href: "https://github.com/JBUkim" },
     // { text: '', href: '' },
