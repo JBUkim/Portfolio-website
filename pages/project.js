@@ -19,7 +19,6 @@ function Portfolio() {
             <p className="description">사진을 클릭하면 사이트로 이동합니다.</p>
 
             <section>
-              {/* eslint-disable-next-line react/jsx-key */}
               <div
                 class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
                 <ul class="grid grid-cols-1 gap-4 mt-8 lg:grid-cols-3">
