@@ -19,8 +19,9 @@ function Navbar({ router }) {
         </Link>
 
         <ul className="nav-links">
-          {navs.map((nav) => (
-            <li key={key}>
+          {/* {navs.map((nav) => (
+            // eslint-disable-next-line react/jsx-key
+            <li>
               <a
                 href={nav.href}
                 className={`nav-item ${
@@ -30,7 +31,25 @@ function Navbar({ router }) {
                 {nav.text}
               </a>
             </li>
-          ))}
+          ))} */}
+
+          <li className="relative inline-block mx-5 active:font-bold hover:font-bold">
+            <a href="/" className="">
+              Home
+            </a>
+          </li>
+          <li className="relative inline-block mx-5 active:font-bold hover:font-bold">
+            <a href="/">Skills</a>
+          </li>
+          <li className="relative inline-block mx-5 active:font-bold hover:font-bold">
+            <a href="/">Project</a>
+          </li>
+          <li className="relative inline-block mx-5 active:font-bold hover:font-bold">
+            <a href="/">Contact</a>
+          </li>
+          <li className="relative inline-block mx-5 active:font-bold hover:font-bold">
+            <a href="https://github.com/JBUkim">GitHub</a>
+          </li>
         </ul>
       </div>
     </nav>
