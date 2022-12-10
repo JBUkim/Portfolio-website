@@ -20,7 +20,10 @@ function Portfolio() {
 
             <section>
               {/* eslint-disable-next-line react/jsx-key */}
-              <div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8" key="img">
+              <div
+                class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8"
+                key={key}
+              >
                 <ul class="grid grid-cols-1 gap-4 mt-8 lg:grid-cols-3">
                   <li>
                     <Link
