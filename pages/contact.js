@@ -5,6 +5,7 @@ function Contact() {
   return (
     <>
       <Head>
+        <link rel="icon" href="/head.ico" />
         <title>Contact</title>
       </Head>
 
@@ -118,12 +119,9 @@ function Contact() {
                           KaKaoTalk ID
                         </td>
                         <td class=" px-4 py-2 text-gray-700">
-                          <a>
-                            watermelon6589
-                          </a>
+                          <a>watermelon6589</a>
                         </td>
                       </tr>
-
                     </tbody>
                   </table>
                 </div>

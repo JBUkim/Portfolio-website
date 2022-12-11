@@ -15,6 +15,7 @@ function About() {
     <>
       <Head>
         <title>Skills</title>
+        <link rel="icon" href="/head.ico" />
       </Head>
 
       <Navbar />
@@ -28,10 +29,10 @@ function About() {
                   <h2 class="text-3xl font-bold sm:text-4xl">Skills</h2>
 
                   <p class="mt-4 text-gray-600">
-                    프로젝트 내에서 주로 백엔드 프로그래밍을 맡고있으며 현재 프론트엔드 공부를 병행중입니다.
-                    저의 목표는 풀스택 개발자가 되는것입니다.
+                    프로젝트 내에서 주로 백엔드 프로그래밍을 맡고있으며 현재
+                    프론트엔드 공부를 병행중입니다. 저의 목표는 풀스택 개발자가
+                    되는것입니다.
                   </p>
-
                 </div>
 
                 <div class="grid grid-cols-2 gap-4 sm:grid-cols-3">

@@ -8,6 +8,7 @@ function Portfolio() {
     <>
       <Head>
         <title>Project</title>
+        <link rel="icon" href="/head.ico" />
       </Head>
 
       <Navbar />

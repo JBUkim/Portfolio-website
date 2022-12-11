@@ -9,6 +9,7 @@ function Home() {
     <>
       <Head>
         <title>Home</title>
+        <link rel="icon" href="/head.ico" />
       </Head>
 
       <Navbar />
@@ -52,20 +53,21 @@ function Home() {
               </span>
             </Link>
 
-              <Link
-                class="mt-8 ml-3 group relative inline-flex items-center
+            <Link
+              class="mt-8 ml-3 group relative inline-flex items-center
                 overflow-hidden border-current rounded border border-gray-600
                 bg-gray-600 px-8 py-3 text-white hover:bg-transparent
                 hover:text-gray-600 focus:outline-none focus:ring
-                active:text-gray-500" href="https://github.com/JBUkim" >
-                <span class="absolute right-0 translate-x-full transition-transform group-hover:-translate-x-4">
-                  <SiGithub></SiGithub>
-                </span>
-                <span class="text-sm font-medium transition-all group-hover:mr-4">
-                  GitHub
-                </span>
-              </Link>
-            
+                active:text-gray-500"
+              href="https://github.com/JBUkim"
+            >
+              <span class="absolute right-0 translate-x-full transition-transform group-hover:-translate-x-4">
+                <SiGithub></SiGithub>
+              </span>
+              <span class="text-sm font-medium transition-all group-hover:mr-4">
+                GitHub
+              </span>
+            </Link>
           </div>
 
           <div className="image-wrapper">
