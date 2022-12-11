@@ -48,7 +48,9 @@ function Navbar() {
             <Link href="/contact">Contact</Link>
           </li>
           <li className="relative inline-block mx-5 active:font-bold hover:font-bold">
-            <Link href="https://github.com/JBUkim">GitHub</Link>
+            <Link href="https://github.com/JBUkim" target="_blank">
+              GitHub
+            </Link>
           </li>
         </ul>
       </div>

@@ -23,8 +23,9 @@ function Portfolio() {
                 <ul class="grid grid-cols-1 gap-4 mt-8 lg:grid-cols-3">
                   <li>
                     <Link
-                      href="https://github.com/JBUkim/TimeCourse"
+                      href="https://github.com/JBUkim/Time-Course"
                       class="group relative block bg-black"
+                      target="_blank"
                     >
                       <img
                         alt="Developer"
@@ -56,10 +57,14 @@ function Portfolio() {
                   </li>
 
                   <li>
-                    <Link href="#" class="group relative block bg-black">
+                    <Link
+                      href="https://github.com/JBUkim/JBU-Drive"
+                      class="group relative block bg-black"
+                      target="_blank"
+                    >
                       <img
                         alt="Developer"
-                        src="/images/butterfly-gbfa6ab678_1280.jpg"
+                        src="/images/hard_drive2.jpg"
                         class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
                       />
 
@@ -89,6 +94,7 @@ function Portfolio() {
                     <Link
                       href="https://github.com/JBUkim/TODO"
                       class="group relative block bg-black"
+                      target="_blank"
                     >
                       <img
                         alt="Developer"
@@ -123,6 +129,7 @@ function Portfolio() {
                     <Link
                       href="https://bat2.vercel.app/"
                       class="group relative block bg-black"
+                      target="_blank"
                     >
                       <img
                         alt="Developer"
@@ -157,6 +164,7 @@ function Portfolio() {
                     <Link
                       href="https://next-shop-7lik.vercel.app/"
                       class="group relative block bg-black"
+                      target="_blank"
                     >
                       <img
                         alt="Developer"
@@ -191,6 +199,7 @@ function Portfolio() {
                     <Link
                       href="https://lets-festival-one.vercel.app/"
                       class="group relative block bg-black"
+                      target="_blank"
                     >
                       <img
                         alt="Developer"
